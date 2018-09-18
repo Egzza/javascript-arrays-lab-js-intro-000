@@ -1,18 +1,22 @@
 // Add your functions and code here
 function destructivelyAppendKitten(name){
-  return kittens.push(name)
+   kittens.push(name)
+   return kittens
 }
 
 function destructivelyPrependKitten(name){
-  return kittens.unshift(name)
+  kittens.unshift(name)
+  return kittens
 }
 
 function destructivelyRemoveLastKitten(name){
-  return kittens.pop()
+  kittens.pop()
+  return kittens
 }
 
 function destructivelyRemoveFirstKitten(name){
-  return kittens.shift()
+  kittens.shift()
+  return kittens
 }
 
 function appendKitten(name){
