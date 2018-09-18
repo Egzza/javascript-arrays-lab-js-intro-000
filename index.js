@@ -4,7 +4,7 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-
+  return kittens.concat(name)
 }
 
 function destructivelyRemoveLastKitten(name){
