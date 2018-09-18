@@ -4,19 +4,21 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-  return kittens.concat(name)
+  return kittens.unshift(name)
 }
 
 function destructivelyRemoveLastKitten(name){
-
+  return kittens.pop()
 }
 
 function destructivelyRemoveFirstKitten(name){
-
+  return kittens.shift()
 }
 
 function appendKitten(name){
-
+    var new arr = kittens
+    arr.concat(name)
+    return arr
 }
 
 function prependKitten(name){
